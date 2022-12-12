@@ -7,8 +7,10 @@
 #include <cstdio>
 #include <cmath>
 
-int f(char str[]) {
-    int result = 0;
+typedef unsigned short int usint;
+
+usint f(char str[]) {
+    usint result = 0;
     int size = 0;
 
     while (str[size]) size++;
